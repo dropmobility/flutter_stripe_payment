@@ -7,10 +7,11 @@
 //
 
 #import "TPSStripeManager.h"
-#import <Stripe/Stripe.h>
 
 #import "TPSError.h"
 #import "TPSStripeManager+Constants.h"
+
+@import Stripe;
 
 // If you change these, make sure to also change:
 //  android/src/main/java/com/gettipsi/stripe/StripeModule.java
